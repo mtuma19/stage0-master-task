@@ -28,7 +28,6 @@ public class BaseIOTest {
 
     protected void assertOutEquals(String expected) {
         assertEquals(expected, updateLineSpliterators(outContent.toString()));
-
     }
 
     protected String updateLineSpliterators (String initial) {

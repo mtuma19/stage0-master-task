@@ -20,9 +20,7 @@ class BitwiseValuesSwapTest extends BaseIOTest {
     @Test
     void swapTestSwapsValues() {
         BitwiseValuesSwap valuesSwap = new BitwiseValuesSwap();
-
         valuesSwap.swap(6,7);
-
         assertOutEquals("7\n6\n");
     }
 
